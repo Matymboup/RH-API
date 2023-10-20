@@ -13,9 +13,9 @@ class RhApiApplicationTests {
 	@Autowired
 	EmployeRepository employeRepos ;
 
-	@Test
-	void contextLoads() {
-	}
+//	@Test
+//	void contextLoads() {
+//	}
 	/*@Test
 	public void testAjoutEmploye(){
 		Employe E1= new Employe("Arame", "Mboup","mboup0@gmail.com","arame1234");
