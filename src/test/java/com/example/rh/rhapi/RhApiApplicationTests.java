@@ -17,22 +17,19 @@ import java.util.List;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-//@WebMvcTest(controllers= EmployeController.class)
-@SpringBootTest
-class RhApiApplicationTests {
-//    @Autowired
-//    private MockMvc myMock;
-//    @MockBean
-//    private EmployeService employeService;
+@WebMvcTest(controllers= EmployeController.class)
 
-//    @Test
-//    public void testGetEmployees() throws Exception {
-//      myMock.perform(get("/employees")).andExpect((status().isOk()));
-//    }
-//    @Test
-//    void conTextLoads(){
-//
-//    }
+class RhApiApplicationTests {
+    @Autowired
+    private MockMvc myMock;
+    @MockBean
+    private EmployeService employeService;
+
+    @Test
+    public void testGetEmployees() throws Exception {
+      myMock.perform(get("/employees")).andExpect((status().isOk()));
+    }
+
 
 }
 
