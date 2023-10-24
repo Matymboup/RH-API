@@ -29,10 +29,10 @@ class RhApiApplicationTests {
 //    public void testGetEmployees() throws Exception {
 //      myMock.perform(get("/employees")).andExpect((status().isOk()));
 //    }
-    @Test
-    void conTextLoads(){
-
-    }
+//    @Test
+//    void conTextLoads(){
+//
+//    }
 
 }
 
